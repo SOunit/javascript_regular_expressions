@@ -1,7 +1,7 @@
 // [.js] is necessary. no shortcut.
-import * as tests from './tests/tests.js';
+import * as samples from './samples/samples.js';
 
 (() => {
-  tests.checkConnect();
-  tests.sample1();
+  samples.checkConnect();
+  samples.showSample1();
 })();

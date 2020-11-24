@@ -4,7 +4,7 @@ export const checkConnect = () => {
   console.log('java script is connected!');
 };
 
-export const sample1 = () => {
+export const showSample1 = () => {
   let title = 'Check 1';
   let pattern = new RegExp('....');
   let textList = ['test', 'box', 'abcde'];
