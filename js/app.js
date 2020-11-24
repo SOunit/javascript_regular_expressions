@@ -1,5 +1,5 @@
 // [.js] is necessary. no shortcut.
-import * as tests from './checks/tests.js';
+import * as tests from './tests/tests.js';
 
 (() => {
   tests.checkConnect();
