@@ -1,26 +1,12 @@
 // [.js] is necessary. no shortcut.
-import * as samples from './samples/samples.js';
+import * as level3 from './levels/level3.js';
+import * as level4 from './levels/level4.js';
 
 (() => {
-  samples.checkConnect();
-  samples.showSample1();
-  samples.showSample2();
-  samples.showSample3();
-  samples.showSample4();
-  samples.showSample5();
-  samples.showSample6();
-  samples.showSample7();
-  samples.showSample8();
-  samples.showSample9();
-  samples.showSample10();
-  samples.showSample11();
-  samples.showSample12();
-  samples.showSample13();
-  samples.showSample14();
-  samples.showSample15();
-  samples.showSample16();
-  samples.showSample17();
-  samples.showSample18();
-  samples.showSample19();
-  samples.showSample20();
+  // Samples from a text book
+
+  // level 1 is intro
+  // level 2 is install
+  level3.showSamples();
+  level4.showSamples();
 })();
